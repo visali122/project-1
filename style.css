@@ -1,3 +1,6 @@
+* ------------------whole elem----------------------- */
+
+
 * {
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
@@ -123,19 +126,19 @@ dt {
 
 /* ----------------------contacts-------------------------- */
 
-#contacts {
+.contacts {
     margin: 10px;
     width: 80%;
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin-top: 52px;
-    background: white;
+    background: #add8e6;
     border-radius: 50px;
     height: 60px;
 }
 
-#contacts div img {
+.contacts div img {
     width: 36px;
     height: 36px;
     margin-bottom: 28px;
@@ -200,7 +203,7 @@ td,th {
 
 /* ----------------------skills------------------------- */
 
-/* ----------------------for tablets,mobiles---------------------- */
+/* ----------------------for tablets---------------------- */
 
 @media screen and (max-width: 770px) {
 
@@ -243,28 +246,13 @@ td,th {
         width: 64px;
         height: 64px;
     }
-
-    .mongodb {
-        grid-area: 5 / 1 / 6 / 2;
-    }
     
     .python {
-        grid-area: 5 / 2 / 6 / 3;
+        grid-area: 5/ 3/ 2/ 2;
     }
     
 }
 
-/* -----------------------for tablets,mobiles----------------------- */
+/* -----------------------for tablets----------------------- */
 
-/* ----------------------except tablets,mobiles--------------------- */
 
-@media screen and (min-width: 770px) {
-
-    .mongodb {
-        grid-area: 3 / 2 / 4 / 3;
-    }
-    
-    .python {
-        grid-area: 3 / 3 / 4 / 4;
-    }
-}
