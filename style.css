@@ -107,14 +107,13 @@ dt {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size:larger;
 }
-
-profile-img {
+    #profile-img {
     width: 200px;
     height: 200px;
     border-radius: 50%;
     background: url("./VISALI T.jpg") no-repeat;
     background-size: 300px 300px;
-    background-position: -70px;
+    background-position-x: -70px;
     /* border: 3px solid #585858; */
 }
 
