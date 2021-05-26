@@ -1,29 +1,25 @@
 <!DOCTYPE html>
-<!-- Number Guessing Game HTML -->
-<html>
-	<head>
-		<title>JavaScript Number Guess</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1 user-scalable=no">
-		<script src="script2.js"></script>
-		<link rel="stylesheet" type="text/css" href="style2.css">
-		<!-- TODO let the user submit a guess by pressing return -->
-		<!-- TODO hide and show history area as needed -->
-	</head>
-	<body>
-		<div id="game">
-			<h1>Number Guessing Game</h1>
-			<div id="statusArea">
-				<p>Enter a number between 1-100 and click the button...</p>
-			</div>
-			<input type="number" id="userGuess"/>
-			<div id="buttonArea" class="button">
-				Guess
-			</div>
-			<div id="historyArea">
-				<h2>Your Previous Guesses</h2>
-				<ol id="historyList">
-				</ol>
-			</div>			
-		</div>
-	</body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guessing Game</title>
+</head>
+<body>
+    
+    <h1>Guessing Game</h1>
+
+    <input type="number" name="number" id="number-input" min="1" max="100">
+
+    <button id="guess">Submit</button>
+
+    <button onclick=location.reload()>Reset</button>
+
+    <div id="result"></div>
+
+    <div id="history"></div>
+    
+    <script src="script.js"></script>
+</body>
 </html>
