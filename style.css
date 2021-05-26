@@ -1,0 +1,23 @@
+body {
+  text-align: center;
+  background-color: black;
+  color: yellow;
+}
+
+#number-input {
+  background-color: white;
+  width:150px;
+}
+
+#guess {
+  background-color: red;
+  color:white;
+  margin-top:10px;
+}
+
+#reset {
+  background-color: red;
+  color:white;
+  margin-top:10px;
+  
+}
